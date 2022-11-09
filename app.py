@@ -1,6 +1,6 @@
 import random
 
-rand_number = random.randint(1, 5)
+rand_number = random.randint(1, 100)
 user_number = ""
 
 while user_number != rand_number:
@@ -9,4 +9,4 @@ while user_number != rand_number:
         print("Too high")
     if user_number < rand_number:
         print("Too low")
-print(f"You got the right number: {rand_number} and {user_number}")
+print(f" The correct number is: {rand_number}. Well done")
