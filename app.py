@@ -14,7 +14,7 @@ def game(number):
             print(f"You guessed the correct number which is {random_number}")
 
 
-game(25)
+game(100)
 
 
 """ rand_number = random.randint(1, 100)
