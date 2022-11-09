@@ -1,7 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
+import random
 
-
-@app.route("/")
-def hello_world():
-    return "<p>Hey Mariam. You're learning and doing well. Brazil GP is next!!!</p>"
+number = input("Guess the number between:")
+print(number)
